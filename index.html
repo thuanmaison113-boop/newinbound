@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Inbound Barcode Table</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 12px;
+    background: #fff;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  th {
+    background: #f2f2f2;
+  }
+
+  button {
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+
+  .barcode-box {
+    margin-top: 6px;
+  }
+
+  .barcode-box img {
+    display: block;
+    max-width: 100%;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+  }
+
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+</style>
+</head>
+
+<body>
+
+<h2>Inbound List</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Brand</th>
+      <th>Store</th>
+      <th>Thùng</th>
+      <th>Hàng Hoá</th>
+      <th>Taras</th>
+      <th>Túi Giấy</th>
+      <th>VMR</th>
+      <th>Loại</th>
+      <th>Inbound Code</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+</table>
+
+<div id="error" class="error"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+<script>
+function loadData() {
+  fetch("./source.csv")
+    .then(res => {
+      if (!res.ok) throw new Error("source.csv not found");
+      return res.text();
+    })
+    .then(csvText => {
+      const parsed = Papa.parse(csvText, {
+        header: true,
+        skipEmptyLines: true
+      });
+
+      const tableBody = document.getElementById("tableBody");
+      tableBody.innerHTML = "";
+
+      parsed.data.forEach(row => {
+        if (!row.inbound_code) return;
+
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${row.brand || ""}</td>
+          <td>${row.name || ""}</td>
+          <td>${row.box || ""}</td>
+          <td>${row.product || ""}</td>
+          <td>${row.taras || ""}</td>
+          <td>${row.paper || ""}</td>
+          <td>${row.vmr || ""}</td>
+          <td>${row.Loai || ""}</td>
+          <td class="code">${row.inbound_code}</td>
+          <td>
+            <button onclick="toggleBarcode(this)">Create barcode</button>
+            <div class="barcode-box"></div>
+          </td>
+        `;
+        tableBody.appendChild(tr);
+      });
+    })
+    .catch(err => {
+      document.getElementById("error").innerText = err.message;
+      console.error(err);
+    });
+}
+
+function toggleBarcode(btn) {
+  const row = btn.closest("tr");
+  const code = row.querySelector(".code").innerText.trim();
+  const box = btn.nextElementSibling;
+
+  if (box.innerHTML) {
+    box.innerHTML = "";
+    btn.innerText = "Create barcode";
+    return;
+  }
+
+  const img = document.createElement("img");
+  img.src =
+    "https://barcode.tec-it.com/barcode.ashx" +
+    "?code=Code128" +
+    "&modulewidth=0.8" +
+    "&height=30" +
+    "&quietzone=20" +
+    "&dpi=200" +
+    "&data=" + encodeURIComponent(code);
+
+  box.appendChild(img);
+  btn.innerText = "Hide barcode";
+}
+
+window.onload = loadData;
+</script>
+
+</body>
+</html>
