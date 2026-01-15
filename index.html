@@ -71,6 +71,7 @@
       <th>Túi Giấy</th>
       <th>VMR</th>
       <th>Loại</th>
+	  <th>Upload_date</th>
       <th>Inbound Code</th>
       <th>Action</th>
     </tr>
@@ -111,6 +112,7 @@ function loadData() {
           <td>${row.paper || ""}</td>
           <td>${row.vmr || ""}</td>
           <td>${row.Loai || ""}</td>
+		  <td>${row.Upload_date || ""}</td>
           <td class="code">${row.inbound_code}</td>
           <td>
             <button onclick="toggleBarcode(this)">Create barcode</button>
