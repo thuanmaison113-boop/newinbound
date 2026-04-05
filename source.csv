@@ -1,10 +1,8 @@
-﻿"brand","name","box","product","taras","paper","vmr","Loai","arrival_date","inbound_code"
-Charles & Keith,KHO HÀ NỘI,0,723,0,0,0,-,,O-0080210512-001
-Charles & Keith,KHO HÀ NỘI,0,33,0,0,0,-,,O-0080210513-001
-Charles & Keith,CK Kiên Giang,5,57,0,0,0,-,,I-1000471049-001
-Charles & Keith,CK VŨNG TÀU,1,0,2,0,0,-,,I-1000471096-001
-Charles & Keith,CK VŨNG TÀU,4,47,0,0,0,-,,I-1000471097-001
-Pedro,PD VIVO,1,3,0,0,0,-,"2026-04-02",I-1000470246-001
-Charles & Keith,CK CẦN THƠ,1,0,7,0,0,TARAS,"2026-04-03",I-1000470852-001
-Charles & Keith,CK CẦN THƠ,4,61,0,0,0,-,"2026-04-03",I-1000470957-001
-Charles & Keith,CK VẠN HẠNH,1,0,10,0,0,-,"2026-04-03",I-1000471181-001
+"brand","name","box","product","taras","paper","vmr","Loai","arrival_date","inbound_code"
+CK,KHO HÀ NỘI,49,723,0,0,0,-,,O-0080210512-001
+CK,KHO HÀ NỘI,3,33,0,0,0,-,,O-0080210513-001
+CK,CK Kiên Giang,5,57,0,0,0,-,,I-1000471049-001
+CK,CK VŨNG TÀU,1,0,2,0,0,-,,I-1000471096-001
+CK,CK VŨNG TÀU,4,47,0,0,0,-,,I-1000471097-001
+CK,CK CẦN THƠ,1,0,7,0,0,-,"2026-04-03",I-1000470852-001
+CK,CK CẦN THƠ,4,61,0,0,0,-,"2026-04-03",I-1000470957-001
