@@ -1,10 +1,10 @@
 ﻿"brand","name","box","product","taras","paper","vmr","Loai","arrival_date","inbound_code"
-BRIKENSTOCK,Birkens Gold Coast NT,0,7,0,0,0,-,,I-1000494107-001
+BRIKENSTOCK,Birkens Gold Coast NT,1,7,0,0,0,-,,I-1000494107-001
 BRIKENSTOCK,Birkenstock Centre Hà Nội,2,20,0,0,0,-,"2026-06-22",I-1000491694-001
-BRIKENSTOCK,Birkenstock Centre Hà Nội,0,11,0,0,0,-,,I-1000494100-001
-BRIKENSTOCK,Birkenstock Lotte Tây Hồ,0,14,0,0,0,-,,I-1000494154-001
-BRIKENSTOCK,Birkenstock Sài Gòn Centre,0,12,0,0,0,-,"2026-06-23",I-1000493952-001
-BRIKENSTOCK,Birkenstock Vincom Đồng Khởi,0,5,0,0,0,-,"2026-06-23",I-1000493967-001
+BRIKENSTOCK,Birkenstock Centre Hà Nội,2,11,0,0,0,-,,I-1000494100-001
+BRIKENSTOCK,Birkenstock Lotte Tây Hồ,2,14,0,0,0,-,,I-1000494154-001
+BRIKENSTOCK,Birkenstock Sài Gòn Centre,1,12,0,0,0,-,"2026-06-23",I-1000493952-001
+BRIKENSTOCK,Birkenstock Vincom Đồng Khởi,1,5,0,0,0,-,"2026-06-23",I-1000493967-001
 CK,CK Crescent Mall,1,0,10,0,0,-,"2026-06-19",I-1000492999-001
 CK,CK LÊ VĂN SỸ,1,0,12,0,0,-,"2026-06-19",I-1000492918-001
 CK,CK THẢO ĐIỀN,0,0,2,0,0,-,"2026-06-19",I-1000493046-001
