@@ -9,7 +9,6 @@ BRIKENSTOCK,Birkenstock Centre Hà Nội,6,54,0,0,0,-,,I-1000504240-001
 BRIKENSTOCK,Birkenstock Crescent Mall,7,56,0,0,0,kiểm kê 24.7,"2026-07-15",I-1000501770-001
 BRIKENSTOCK,Birkenstock Crescent Mall,4,34,0,0,0,-,"2026-07-22",I-1000504341-001
 BRIKENSTOCK,Birkenstock Lotte Tây Hồ,6,63,0,0,0,KCL,"2026-07-11",I-1000499578-001
-BRIKENSTOCK,Birkenstock Lotte Tây Hồ,3,49,0,0,0,có 1 thùng rách đã đếm lại,"2026-07-20",I-1000501773-001
 BRIKENSTOCK,Birkenstock Lotte Tây Hồ,2,30,0,0,0,-,,I-1000504651-001
 BRIKENSTOCK,Birkenstock Sài Gòn Centre,4,28,0,0,0,có 1 mã lệch qua lại,"2026-07-15",I-1000501900-001
 BRIKENSTOCK,Birkenstock Sài Gòn Centre,7,69,0,0,0,-,"2026-07-22",I-1000504442-001
@@ -64,8 +63,6 @@ Pedro,PD BÌNH DƯƠNG,3,16,0,0,0,tiktok,"2026-07-17",I-1000502452-001
 Pedro,PD BÌNH DƯƠNG,27,247,0,0,0,-,"2026-07-17",I-1000502586-001
 Pedro,PD BÌNH TÂN,1,17,0,0,0,túi ari lỗi ko put kệ,"2026-07-16",I-1000502243-001
 Pedro,PD CẦN THƠ,1,12,0,0,0,-,"2026-07-20",I-1000502699-001
-Pedro,PD CẦN THƠ,11,190,0,0,0,-,"2026-07-20",I-1000502941-001
-Pedro,PD DN LÊ DUẨN,8,191,0,0,0,nhãn yêu cầu có tồn trong ngày 23.7,"2026-07-20",I-1000503417-001
 Pedro,PD DN LÊ DUẨN,1,11,0,0,0,túi ari lỗi ko put kệ,"2026-07-20",I-1000503415-001
 Pedro,PD DN VINCOM,17,198,0,0,0,-,"2026-07-20",I-1000503566-001
 Pedro,PD DN VINCOM,1,14,0,0,0,túi ari lỗi ko put kệ,"2026-07-20",I-1000503577-001
@@ -82,11 +79,9 @@ Pedro,PD QUANG TRUNG,1,8,0,0,0,túi ari lỗi ko put kệ,"2026-07-16",I-1000502
 Pedro,PD THẢO ĐIỀN,1,6,0,0,0,túi ari lỗi ko put kệ,"2026-07-16",I-1000502419-001
 Pedro,PD TÂN PHÚ,10,129,0,0,0,nhãn yêu cầu có tồn trong ngày 23.7,"2026-07-16",I-1000502477-001
 Pedro,PD TÂN PHÚ,0,5,0,0,0,"2 DO tổng 10 thùng","2026-07-16",I-1000502476-001
-Pedro,PD VIVO,1,5,0,0,0,túi ari lỗi ko put kệ,"2026-07-16",I-1000502593-001
 Pedro,PD VŨNG TÀU,1,8,0,0,0,-,"2026-07-11",I-1000500683-001
-Pedro,PD VŨNG TÀU,10,171,0,0,0,-,"2026-07-20",I-1000502997-001
 Pedro,PD VẠN HẠNH,1,5,0,0,0,túi ari lỗi ko put kệ,"2026-07-16",I-1000502597-001
-Pedro,PD ĐÀ NẴNG THANH KHÊ,0,92,0,0,0,-,,I-1000504094-001
+Pedro,PD ĐÀ NẴNG THANH KHÊ,9,92,0,0,0,thiếu 4 con,,I-1000504094-001
 Pedro,PD ĐỒNG KHỞI,16,253,0,0,0,-,"2026-07-16",I-1000502610-001
 Pedro,PD ĐỒNG KHỞI,1,0,0,147,0,PD-SALEBAG-S,"2026-07-16",I-1000502607-001
 Pedro,PD ĐỒNG KHỞI,1,1,0,0,0,KCL,"2026-07-16",I-1000502608-001
