@@ -1,7 +1,8 @@
 brand,name,box,product,taras,paper,vmr,Loai,arrival_date,inbound_code
-BIRKENSTOCK,Birkens Gold Coast NT,3,29,0,0,0,-,,I-1000519195-001
-BIRKENSTOCK,Birkenstock Centre Hà Nội,3,34,0,0,0,-,,I-1000519199-001
-BIRKENSTOCK,Birkenstock Lotte Tây Hồ,4,37,0,0,0,-,,I-1000519062-001
+BIRKENSTOCK,Birkens Gold Coast NT,3,29,0,0,0,-,2026-09-08,I-1000519195-001
+BIRKENSTOCK,Birkenstock Centre Hà Nội,3,34,0,0,0,-,2026-09-08,I-1000519199-001
+BIRKENSTOCK,Birkenstock Lotte Tây Hồ,4,37,0,0,0,-,2026-09-08,I-1000519062-001
+BIRKENSTOCK,Birkenstock Đà Nẵng,1,0,0,0,0,gửi bù chiếc thiếu,2026-09-08,-
 CK,CK BÌNH DƯƠNG,0,0,13,0,0,-,2026-09-08,I-1000519940-001
 CK,CK BÌNH DƯƠNG,0,4,0,0,0,-,2026-09-08,I-1000519941-001
 CK,CK BÌNH DƯƠNG,0,1695,0,0,0,CK2 - CK6,2026-09-08,I-1000519947-001
